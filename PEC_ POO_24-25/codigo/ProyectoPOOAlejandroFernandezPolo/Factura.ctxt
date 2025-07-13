@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Factura
+comment1.params=idFactura\ mecanico\ vehiculo\ base\ importe\ fecha
+comment1.target=Factura(int,\ Mecanico,\ Vehiculo,\ Base,\ double,\ java.time.LocalDateTime)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

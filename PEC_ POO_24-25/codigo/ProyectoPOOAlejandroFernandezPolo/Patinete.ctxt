@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Patinete
+comment0.text=\r\n\ Clase\ que\ representa\ un\ patinete\ el\u00E9ctrico.\r\n\ Hereda\ de\ la\ clase\ abstracta\ Vehiculo\ y\ proporciona\ una\ implementaci\u00F3n\ espec\u00EDfica\r\n\ del\ c\u00E1lculo\ de\ consumo\ de\ bater\u00EDa\ para\ este\ tipo\ de\ veh\u00EDculo.\r\n\r\n\ @author\r\n
+comment1.params=id
+comment1.target=Patinete(int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Patinete.\r\n\ Inicializa\ un\ nuevo\ patinete\ con\ los\ par\u00E1metros\ especificados.\r\n\r\n\ @param\ id\ \ \ \ \ \ \ \ \ \ \ Identificador\ \u00FAnico\ del\ patinete\r\n\ @throws\ IllegalArgumentException\ Si\ el\ estado\ proporcionado\ no\ es\ v\u00E1lido\r\n
+comment2.params=minutos
+comment2.target=void\ calcularConsumoBateria(int)
+comment2.text=\r\n\ Implementaci\u00F3n\ del\ m\u00E9todo\ abstracto\ para\ calcular\ el\ consumo\ de\ bater\u00EDa.\r\n\ Para\ los\ patinetes,\ se\ asume\ un\ consumo\ de\ 0.5%\ de\ bater\u00EDa\ por\ minuto\ de\ uso.\r\n\r\n\ @param\ minutos\ Tiempo\ de\ uso\ en\ minutos\r\n\ @return\ Consumo\ estimado\ de\ bater\u00EDa\ en\ porcentaje\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ en\ cadena\ del\ objeto\ Patinete.\r\n\ Incluye\ todos\ los\ atributos\ relevantes\ del\ veh\u00EDculo.\r\n\r\n\ @return\ Cadena\ con\ la\ informaci\u00F3n\ del\ patinete\r\n
+numComments=4

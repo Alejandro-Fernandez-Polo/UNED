@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=UsuarioPremium
+comment0.text=\r\n\ La\ clase\ UsuarioPremium\ extiende\ las\ funcionalidades\ de\ la\ clase\ Usuario\r\n\ para\ representar\ a\ un\ usuario\ con\ privilegios\ avanzados\ dentro\ del\ sistema.\r\n\ Este\ tipo\ de\ usuario\ tiene\ acceso\ a\ caracter\u00EDsticas\ exclusivas\ o\ ventajas\ a\u00F1adidas\r\n\ en\ comparaci\u00F3n\ con\ los\ usuarios\ est\u00E1ndar.\r\n
+comment1.params=dni\ nombre\ fNacimiento\ saldo
+comment1.target=UsuarioPremium(java.lang.String,\ java.lang.String,\ int,\ double)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ UsuarioPremium\ que\ crea\ una\ nueva\ instancia\ de\ usuario\ premium\r\n\ con\ los\ atributos\ especificados.\r\n\r\n\ @param\ dni\ \ \ \ \ \ \ \ \ DNI\ del\ usuario,\ debe\ ser\ una\ cadena\ de\ texto\ v\u00E1lida\ con\ 8\ d\u00EDgitos\ y\ una\ letra.\r\n\ @param\ nombre\ \ \ \ \ \ Nombre\ del\ usuario,\ no\ puede\ ser\ nulo\ ni\ vac\u00EDo.\r\n\ @param\ fNacimiento\ Fecha\ de\ nacimiento\ del\ usuario\ como\ n\u00FAmero\ entero\ en\ formato\ DDMMAAAA.\r\n\ @param\ saldo\ \ \ \ \ \ \ Saldo\ inicial\ del\ usuario\ premium,\ expresado\ como\ un\ valor\ decimal.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

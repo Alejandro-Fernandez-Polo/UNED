@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=GestorMantenimiento
+comment1.params=sistema
+comment1.target=GestorMantenimiento(SistemaGestion)
+comment2.params=mantenimiento
+comment2.target=void\ gestionarTareasMantenimiento(Mantenimiento)
+comment3.params=
+comment3.target=void\ mostrarMenuMantenimiento()
+comment4.params=mantenimiento
+comment4.target=void\ recogerVehiculo(Mantenimiento)
+comment5.params=mantenimiento
+comment5.target=void\ administrarVehiculosRecogidos(Mantenimiento)
+comment6.params=vehiculo\ mantenimiento
+comment6.target=void\ devolverVehiculoMant(Vehiculo,\ Mantenimiento)
+numComments=7

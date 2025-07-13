@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Bicicleta
+comment0.text=\r\n\ Clase\ que\ representa\ una\ bicicleta\ el\u00E9ctrica.\r\n\ Extiende\ la\ clase\ abstracta\ Vehiculo\ e\ implementa\ el\ comportamiento\ espec\u00EDfico\r\n\ de\ c\u00E1lculo\ de\ consumo\ de\ bater\u00EDa\ para\ bicicletas.\r\n\r\n\ @author\r\n
+comment1.params=id
+comment1.target=Bicicleta(int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Bicicleta.\r\n\ Inicializa\ una\ bicicleta\ con\ los\ valores\ especificados.\r\n\r\n\ @param\ id\ \ \ \ \ \ \ \ \ \ \ Identificador\ \u00FAnico\ de\ la\ bicicleta\r\n\ @throws\ IllegalArgumentException\ Si\ el\ estado\ proporcionado\ no\ es\ v\u00E1lido\r\n
+comment2.params=minutos
+comment2.target=void\ calcularConsumoBateria(int)
+comment2.text=\r\n\ Implementaci\u00F3n\ del\ m\u00E9todo\ abstracto\ calcularConsumoBateria.\r\n\ En\ el\ caso\ de\ las\ bicicletas\ el\u00E9ctricas,\ se\ estima\ un\ consumo\ de\ 1%\ de\ bater\u00EDa\ por\ minuto\ de\ uso.\r\n\r\n\ @param\ minutos\ Tiempo\ de\ uso\ en\ minutos\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ textual\ del\ objeto\ Bicicleta.\r\n\ Incluye\ los\ valores\ actuales\ de\ sus\ atributos\ principales.\r\n\r\n\ @return\ Cadena\ con\ la\ informaci\u00F3n\ formateada\ del\ objeto\ Bicicleta\r\n
+numComments=4

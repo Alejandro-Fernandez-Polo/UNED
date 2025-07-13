@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=UsuarioEstandar
+comment0.text=\r\n\ La\ clase\ UsuarioEstandar\ es\ una\ subclase\ de\ la\ clase\ Usuario\ que\ representa\ a\ un\ usuario\ est\u00E1ndar\r\n\ dentro\ del\ sistema.\ Hereda\ los\ atributos\ y\ comportamiento\ de\ la\ clase\ Usuario\ y\ no\ a\u00F1ade\ nuevas\ funcionalidades,\r\n\ pero\ permite\ crear\ instancias\ espec\u00EDficas\ para\ usuarios\ que\ pertenecen\ a\ esta\ categor\u00EDa.\r\n\r\n\ Dado\ que\ extiende\ a\ Usuario,\ tiene\ acceso\ a\ todas\ las\ propiedades\ y\ m\u00E9todos\ inherentes,\ como\ el\ manejo\r\n\ de\ saldos,\ historial\ de\ viajes\ y\ las\ interacciones\ con\ el\ sistema\ de\ gesti\u00F3n.\r\n
+comment1.params=dni\ nombre\ fNacimiento\ saldo
+comment1.target=UsuarioEstandar(java.lang.String,\ java.lang.String,\ int,\ double)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ UsuarioEstandar\ que\ inicializa\ una\ nueva\ instancia\ de\ usuario\ est\u00E1ndar\r\n\ con\ los\ atributos\ especificados.\ Este\ constructor\ invoca\ al\ constructor\ de\ la\ superclase\ Usuario.\r\n\r\n\ @param\ dni\ \ \ \ \ \ \ \ \ DNI\ del\ usuario,\ debe\ ser\ una\ cadena\ de\ texto\ v\u00E1lida\ con\ 8\ d\u00EDgitos\ y\ una\ letra.\r\n\ @param\ nombre\ \ \ \ \ \ Nombre\ del\ usuario,\ no\ puede\ ser\ nulo\ ni\ vac\u00EDo.\r\n\ @param\ fNacimiento\ Fecha\ de\ nacimiento\ del\ usuario\ como\ n\u00FAmero\ entero\ en\ formato\ DDMMAAAA.\r\n\ @param\ saldo\ \ \ \ \ \ \ Saldo\ inicial\ del\ usuario\ est\u00E1ndar,\ expresado\ como\ un\ valor\ decimal.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

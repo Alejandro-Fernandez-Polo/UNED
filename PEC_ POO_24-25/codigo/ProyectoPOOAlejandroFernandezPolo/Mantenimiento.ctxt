@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Mantenimiento
+comment1.params=dni\ nombre\ fNacimiento
+comment1.target=Mantenimiento(java.lang.String,\ java.lang.String,\ int)
+comment10.params=vehiculo
+comment10.target=void\ devolverVehiculo(Vehiculo)
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.util.ArrayList\ getVehiculosAsignados()
+comment3.params=
+comment3.target=java.util.ArrayList\ getVehiculosRecogidos()
+comment4.params=
+comment4.target=void\ gestionarTareas()
+comment5.params=vehiculo
+comment5.target=void\ agregarVehiculoAsignado(Vehiculo)
+comment6.params=vehiculo
+comment6.target=void\ agregarVehiculoRecogido(Vehiculo)
+comment7.params=
+comment7.target=void\ verVehiculosAsignados()
+comment8.params=
+comment8.target=void\ recogerVehiculo()
+comment9.params=
+comment9.target=void\ administrarVehiculosRecogidos()
+numComments=12

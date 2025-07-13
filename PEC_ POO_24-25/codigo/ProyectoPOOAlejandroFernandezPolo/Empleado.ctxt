@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Empleado
+comment0.text=\r\n\ Representa\ a\ un\ empleado\ dentro\ del\ sistema,\ heredando\ de\ la\ clase\ Persona.\r\n\ Esta\ clase\ sirve\ como\ clase\ base\ para\ roles\ espec\u00EDficos\ de\ empleado,\r\n\ como\ administradores,\ mec\u00E1nicos\ y\ personal\ de\ mantenimiento.\r\n
+comment1.params=dni\ nombre\ fNacimiento
+comment1.target=Empleado(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Construye\ una\ instancia\ de\ la\ clase\ Empleado\ inicializando\ sus\ atributos\r\n\ usando\ los\ par\u00E1metros\ proporcionados.\ Este\ constructor\ llama\ al\ constructor\ de\ la\ superclase\r\n\ para\ validar\ e\ inicializar\ las\ propiedades\ compartidas\ de\ una\ Persona.\r\n\r\n\ @param\ dni\ El\ DNI\ completo\ del\ empleado.\ Debe\ constar\ de\ 8\ d\u00EDgitos\ y\ una\ letra\ v\u00E1lida.\r\n\ @param\ nombre\ El\ nombre\ del\ empleado.\ No\ puede\ ser\ nulo\ ni\ estar\ vac\u00EDo.\r\n\ @param\ fNacimiento\ La\ fecha\ de\ nacimiento\ del\ empleado\ como\ un\ entero\ con\ el\ formato\ DDMMAAAA.\r\n\ @throws\ IllegalArgumentException\ Si\ el\ DNI\ no\ es\ v\u00E1lido\ o\ tiene\ un\ formato\ incorrecto.\r\n\ @throws\ IllegalArgumentException\ Si\ el\ nombre\ es\ nulo\ o\ est\u00E1\ vac\u00EDo.\r\n\ @throws\ IllegalArgumentException\ Si\ la\ fecha\ de\ nacimiento\ no\ es\ v\u00E1lida.\r\n
+numComments=2

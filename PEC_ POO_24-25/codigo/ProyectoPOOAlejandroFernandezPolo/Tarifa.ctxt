@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Tarifa
+comment1.params=tipoVehiculo\ precioPorMinuto\ descuentoPremium
+comment1.target=Tarifa(TipoVehiculos,\ int,\ int)
+comment2.params=
+comment2.target=TipoVehiculos\ getTipoVehiculo()
+comment3.params=tipoVehiculo
+comment3.target=void\ setTipoVehiculo(TipoVehiculos)
+comment4.params=
+comment4.target=int\ getPrecioPorMinuto()
+comment5.params=precioPorMinuto
+comment5.target=void\ setPrecioPorMinuto(int)
+comment6.params=
+comment6.target=int\ getDescuentoPremium()
+comment7.params=descuentoPremium
+comment7.target=void\ setDescuentoPremium(int)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

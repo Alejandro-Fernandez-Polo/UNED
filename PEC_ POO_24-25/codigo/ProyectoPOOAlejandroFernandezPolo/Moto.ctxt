@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Moto
+comment1.params=id\ coordX\ coordY\ cilindrada
+comment1.target=Moto(int,\ int,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Moto.\r\n\ Inicializa\ una\ moto\ con\ los\ valores\ especificados.\r\n\r\n\ @param\ id\ \ \ \ \ \ \ \ \ \ \ Identificador\ \u00FAnico\ de\ la\ moto\r\n\ @param\ coordX\ \ \ \ \ \ \ Coordenada\ X\ de\ ubicaci\u00F3n\r\n\ @param\ coordY\ \ \ \ \ \ \ Coordenada\ Y\ de\ ubicaci\u00F3n\r\n\ @param\ cilindrada\ \ \ Tipo\ de\ cilindrada\ como\ cadena\ ("PEQUE\u00D1A"\ o\ "GRANDE")\r\n\ @throws\ IllegalArgumentException\ Si\ el\ estado\ o\ la\ cilindrada\ no\ son\ v\u00E1lidos\r\n
+comment2.params=
+comment2.target=int\ getCoordX()
+comment3.params=coordX
+comment3.target=void\ setCoordX(int)
+comment4.params=
+comment4.target=int\ getCoordY()
+comment5.params=coordY
+comment5.target=void\ setCoordY(int)
+comment6.params=
+comment6.target=Cilindradas\ getCilindrada()
+comment6.text=\r\n\ Devuelve\ la\ cilindrada\ de\ la\ moto.\r\n\r\n\ @return\ Cilindrada\ de\ la\ moto\ (enum)\r\n
+comment7.params=cilindrada
+comment7.target=void\ setCilindrada(java.lang.String)
+comment7.text=\r\n\ Establece\ la\ cilindrada\ de\ la\ moto\ a\ partir\ de\ una\ cadena.\r\n\ La\ cadena\ debe\ coincidir\ con\ los\ valores\ del\ enum\:\ "PEQUE\u00D1A"\ o\ "GRANDE".\r\n\r\n\ @param\ cilindrada\ Cadena\ que\ representa\ el\ tipo\ de\ cilindrada\r\n\ @throws\ IllegalArgumentException\ Si\ el\ valor\ no\ es\ v\u00E1lido\r\n
+comment8.params=minutos
+comment8.target=void\ calcularConsumoBateria(int)
+comment8.text=\r\n\ Implementaci\u00F3n\ del\ m\u00E9todo\ abstracto\ que\ calcula\ el\ consumo\ de\ bater\u00EDa.\r\n\ El\ consumo\ depende\ del\ tipo\ de\ cilindrada\:\r\n\ -\ PEQUE\u00D1A\:\ 0.4%\ por\ minuto\r\n\ -\ GRANDE\:\ 0.25%\ por\ minuto\ (m\u00E1s\ eficiente)\r\n\r\n\ @param\ minutos\ Tiempo\ de\ uso\ en\ minutos\r\n\ @return\ Consumo\ estimado\ de\ bater\u00EDa\ en\ porcentaje\r\n
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ textual\ del\ objeto\ Moto.\r\n\ Incluye\ todos\ los\ atributos\ principales\ del\ veh\u00EDculo\ y\ su\ cilindrada.\r\n\r\n\ @return\ Cadena\ con\ la\ informaci\u00F3n\ de\ la\ moto\r\n
+numComments=10
