@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=UnionFind
+comment1.params=size
+comment1.target=UnionFind(int)
+comment1.text=\r\n\ Crea\ una\ estructura\ Union-Find\ de\ tama\u00F1o\ dado.\r\n\ Cada\ elemento\ empieza\ en\ su\ propio\ conjunto\ como\ ra\u00EDz.\r\n\r\n\ @param\ size\ n\u00FAmero\ de\ elementos,\ indexados\ 0.\r\n
+comment2.params=p
+comment2.target=int\ find(int)
+comment2.text=\r\n\ Encuentra\ el\ representante\ del\ conjunto\ que\ contiene\ p.\r\n\ Aplica\ compresi\u00F3n\ de\ caminos\ para\ aplanar\ el\ \u00E1rbol\ y\ acelerar\ futuras\ b\u00FAsquedas.\r\n\r\n\ @param\ p\ elemento\ a\ consultar\r\n\ @return\ representante\ del\ conjunto\ de\ p\r\n
+comment3.params=i\ j
+comment3.target=boolean\ union(int,\ int)
+comment3.text=\r\n\ Une\ los\ conjuntos\ que\ contienen\ i\ y\ j\ usando\ uni\u00F3n\ por\ rango.\r\n\ Si\ ya\ est\u00E1n\ en\ el\ mismo\ conjunto,\ no\ hace\ nada.\r\n\r\n\ @param\ i\ primer\ elemento\r\n\ @param\ j\ segundo\ elemento\r\n\ @return\ true\ si\ se\ ha\ realizado\ la\ uni\u00F3n,\ false\ si\ ya\ estaban\ conectados\r\n
+numComments=4

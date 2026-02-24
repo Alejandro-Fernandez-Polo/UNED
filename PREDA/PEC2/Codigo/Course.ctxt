@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Course
+comment0.text=\r\n\ Representa\ un\ curso\ que\ necesita\ ser\ asignado\ a\ un\ aula\ y\ un\ profesor.\r\n
+comment1.params=number
+comment1.target=Course(int)
+comment1.text=\r\n\ Constructor\ que\ inicializa\ un\ curso\ con\ su\ n\u00FAmero\ identificador.\r\n\r\n\ @param\ number\ identificador\ del\ curso\r\n
+comment2.params=professor
+comment2.target=void\ setProfessor(int)
+comment3.params=classroom
+comment3.target=void\ setClassroom(int)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Representaci\u00F3n\ en\ formato\ de\ texto\ del\ curso.\r\n\ Formato\:\ "aula\ curso\ profesor"\r\n\r\n\ @return\ cadena\ con\ los\ valores\ de\ aula,\ n\u00FAmero\ de\ curso\ y\ profesor\ separados\ por\ espacios\r\n
+numComments=5

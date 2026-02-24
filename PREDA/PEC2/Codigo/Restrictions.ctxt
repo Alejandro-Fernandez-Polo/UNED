@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Restrictions
+comment0.text=\r\n\ Gestiona\ las\ restricciones\ de\ asignaci\u00F3n\ entre\ cursos,\ aulas\ y\ profesores.\r\n\ Utiliza\ generaci\u00F3n\ aleatoria\ para\ simular\ reglas\ de\ validaci\u00F3n.\r\n
+comment1.params=
+comment1.target=Restrictions()
+comment1.text=\r\n\ Constructor\ que\ inicializa\ el\ generador\ aleatorio.\r\n
+comment2.params=classroom\ course
+comment2.target=boolean\ valid(int,\ int)
+comment2.text=\r\n\ Verifica\ si\ un\ curso\ puede\ ser\ asignado\ a\ un\ aula\ espec\u00EDfica.\r\n\ Simula\ restricciones\ de\ compatibilidad\ aula-curso.\r\n\r\n\ @param\ classroom\ identificador\ del\ aula\r\n\ @param\ course\ identificador\ del\ curso\r\n\ @return\ true\ si\ la\ asignaci\u00F3n\ es\ v\u00E1lida,\ false\ en\ caso\ contrario\ (aleatorio)\r\n
+comment3.params=professor\ course
+comment3.target=boolean\ specialty(int,\ int)
+comment3.text=\r\n\ Verifica\ si\ un\ profesor\ tiene\ la\ especialidad\ requerida\ para\ impartir\ un\ curso.\r\n\ Simula\ restricciones\ de\ compatibilidad\ profesor-curso.\r\n\r\n\ @param\ professor\ identificador\ del\ profesor\r\n\ @param\ course\ identificador\ del\ curso\r\n\ @return\ true\ si\ el\ profesor\ puede\ impartir\ el\ curso,\ false\ en\ caso\ contrario\ (aleatorio)\r\n
+numComments=4

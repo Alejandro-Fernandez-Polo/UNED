@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Network
+comment0.text=\r\n\ Representa\ una\ red\ de\ nodos\ y\ aristas.\r\n\ Selecciona\ un\ subconjunto\ de\ aristas\ de\ m\u00EDnimo\ coste\ que\ conecte\ todos\ los\ nodos\r\n\ sin\ formar\ ciclos\ (\u00E1rbol\ de\ expansi\u00F3n\ m\u00EDnimo\ con\ algoritmo\ de\ Kruskal\ +\ UnionFind).\r\n
+comment1.params=nodes\ y
+comment1.target=Network(int,\ int)
+comment1.text=\r\n\ Inicializa\ la\ red\ con\ el\ n\u00FAmero\ de\ nodos\ y\ el\ par\u00E1metro\ Y.\r\n\ Crea\ listas\ vac\u00EDas.\r\n
+comment2.params=key\ message\ show
+comment2.target=void\ printOnce(java.lang.String,\ java.lang.String,\ boolean)
+comment2.text=\r\n\ Muestra\ un\ mensaje\ una\ \u00FAnica\ vez\ si\ 'show'\ es\ true.\r\n
+comment3.params=
+comment3.target=int\ getTotalCost()
+comment3.text=\r\n\ Calcula\ el\ coste\ total\ sumando\ los\ costes\ de\ las\ aristas\ seleccionadas.\r\n
+comment4.params=edge
+comment4.target=void\ addEdge(Edge)
+comment4.text=\r\n\ A\u00F1ade\ una\ arista\ a\ la\ lista\ de\ disponibles\ y\ verifica/ajusta\ su\ coste\ con\ Y.\r\n
+comment5.params=
+comment5.target=void\ sortEdges()
+comment5.text=\r\n\ Ordena\ las\ aristas\ por\ coste\ ascendente\ (precondici\u00F3n\ de\ Kruskal).\r\n
+comment6.params=show
+comment6.target=void\ selectConnections(java.lang.Boolean)
+comment6.text=\r\n\ Selecciona\ las\ conexiones\ usando\ Kruskal\:\r\n\ -\ Ordena\ aristas\ por\ coste\r\n\ -\ Recorre\ y\ a\u00F1ade\ aristas\ que\ no\ formen\ ciclo\ seg\u00FAn\ UnionFind\r\n\ -\ Finaliza\ al\ tener\ 'nodes\ -\ 1'\ aristas\ (\u00E1rbol\ de\ expansi\u00F3n)\r\n\r\n\ @param\ show\ si\ es\ true,\ muestra\ trazas\ del\ proceso\r\n
+numComments=7

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Alejandro_Fernandez_Polo_PEC1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Alejandro_Fernandez_Polo_PEC1_jar</output-path>
+    <root id="archive" name="Alejandro_Fernandez_Polo_PEC1.jar">
+      <element id="module-output" name="Alejandro_Fernandez_Polo_PEC1" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Edge
+comment0.text=\r\n\ Representa\ una\ arista\ (conexi\u00F3n)\ entre\ dos\ nodos\ en\ la\ red.\r\n\ Cada\ arista\ conecta\ los\ nodos\ i\ y\ j\ con\ un\ coste\ asociado.\r\n
+comment1.params=i\ j\ cost
+comment1.target=Edge(int,\ int,\ int)
+comment1.text=\r\n\ Crea\ una\ arista\ entre\ dos\ nodos\ con\ un\ coste\ dado.\r\n\r\n\ @param\ i\ primer\ nodo\r\n\ @param\ j\ segundo\ nodo\r\n\ @param\ cost\ coste\ de\ la\ conexi\u00F3n\r\n
+comment2.params=y
+comment2.target=void\ checkCost(int)
+comment2.text=\r\n\ Verifica\ y\ ajusta\ el\ coste\ si\ es\ necesario.\r\n\ Si\ el\ coste\ es\ -1\ (no\ especificado),\ se\ calcula\ como\ (i\ *\ j)\ %\ y.\r\n\r\n\ @param\ y\ par\u00E1metro\ usado\ para\ calcular\ el\ coste\ cuando\ no\ est\u00E1\ definido\r\n
+comment3.params=other
+comment3.target=int\ compareTo(Edge)
+comment3.text=\r\n\ Compara\ esta\ arista\ con\ otra\ seg\u00FAn\ su\ coste.\r\n\ Permite\ ordenar\ aristas\ de\ menor\ a\ mayor\ coste.\r\n\r\n\ @param\ other\ arista\ con\ la\ que\ comparar\r\n\ @return\ valor\ negativo\ si\ this.cost\ <\ other.cost,\r\n\ \ \ \ \ \ \ \ \ cero\ si\ son\ iguales,\r\n\ \ \ \ \ \ \ \ \ positivo\ si\ this.cost\ >\ other.cost\r\n
+numComments=4

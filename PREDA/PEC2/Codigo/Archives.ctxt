@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Archives
+comment0.text=\r\n\ Clase\ de\ gesti\u00F3n\ de\ archivos\ para\ el\ sistema\ de\ backtracking.\r\n\ Responsable\ de\:\r\n\ -\ Leer\ la\ configuraci\u00F3n\ inicial\ desde\ un\ archivo\ de\ entrada\r\n\ -\ Ejecutar\ el\ algoritmo\ de\ backtracking\r\n\ -\ Exportar\ la\ soluci\u00F3n\ a\ consola\ o\ archivo\ de\ salida\r\n
+comment1.params=fichero
+comment1.target=Archives(java.lang.String)
+comment1.text=\r\n\ Constructor\ que\ asocia\ la\ instancia\ a\ un\ archivo\ de\ entrada.\r\n\r\n\ @param\ fichero\ nombre\ del\ fichero\ a\ leer\ (ruta\ relativa\ o\ absoluta)\r\n
+comment2.params=show
+comment2.target=void\ loadBacktracking(java.lang.Boolean)
+comment2.text=\r\n\ Carga\ y\ ejecuta\ el\ algoritmo\ de\ backtracking\ desde\ el\ archivo\ de\ entrada.\r\n\ Lee\ el\ n\u00FAmero\ de\ cursos\ del\ archivo\ y\ lanza\ el\ proceso\ de\ asignaci\u00F3n.\r\n\r\n\ Formato\ esperado\ del\ archivo\ de\ entrada\:\r\n\ Primera\ l\u00EDnea\:\ n\u00FAmero\ entero\ N\ (cantidad\ de\ cursos,\ aulas\ y\ profesores)\r\n\r\n\ @param\ show\ si\ true,\ muestra\ trazas\ detalladas\ del\ proceso\ de\ b\u00FAsqueda\r\n
+comment3.params=fichero
+comment3.target=void\ getSolution(java.lang.String)
+comment3.text=\r\n\ Obtiene\ y\ muestra\ la\ soluci\u00F3n\ del\ backtracking.\r\n\ Puede\ escribir\ en\ consola\ o\ exportar\ a\ un\ archivo\ seg\u00FAn\ el\ par\u00E1metro.\r\n\r\n\ Formatos\ de\ salida\:\r\n\ -\ Si\ hay\ soluci\u00F3n\:\ l\u00EDneas\ con\ formato\ "aula\ curso\ profesor"\r\n\ -\ Sin\ soluci\u00F3n\:\ imprime\ "0"\r\n\r\n\ @param\ fichero\ ruta\ del\ archivo\ de\ salida.\ Si\ es\ null,\ muestra\ por\ consola\r\n
+numComments=4

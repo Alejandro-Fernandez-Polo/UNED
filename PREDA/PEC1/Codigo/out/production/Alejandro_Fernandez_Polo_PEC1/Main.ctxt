@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Punto\ de\ entrada\ del\ programa.\r\n\ Procesa\ los\ argumentos\ de\ l\u00EDnea\ de\ comandos\ y\ ejecuta\ las\ operaciones\ correspondientes.\r\n\r\n\ Formatos\ v\u00E1lidos\:\r\n\ -\ [-h]\ \:\ muestra\ la\ ayuda\r\n\ -\ fichero_entrada\ [fichero_salida]\ \:\ carga\ red,\ resuelve\ y\ exporta\ (modo\ silencioso)\r\n\ -\ [-t]\ fichero_entrada\ [fichero_salida]\ \:\ carga\ red,\ resuelve\ y\ exporta\ (modo\ trazas)\r\n\r\n\ @param\ args\ argumentos\ de\ l\u00EDnea\ de\ comandos\r\n
+numComments=2

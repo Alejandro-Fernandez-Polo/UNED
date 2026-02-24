@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Archives
+comment0.text=\r\n\ Clase\ responsable\ de\ cargar\ una\ red\ (Network)\ desde\ un\ fichero\ de\ texto\r\n\ y\ de\ volcar\ la\ soluci\u00F3n\ (coste\ total\ y\ aristas\ seleccionadas)\ por\ consola\r\n\ o\ a\ un\ fichero\ de\ salida.\r\n
+comment1.params=fichero
+comment1.target=Archives(java.lang.String)
+comment1.text=\r\n\ Crea\ una\ instancia\ asociada\ a\ un\ fichero\ de\ entrada.\r\n\r\n\ @param\ fichero\ nombre\ del\ fichero\ a\ leer\ (ruta\ relativa\ o\ absoluta)\r\n
+comment2.params=show
+comment2.target=void\ loadNetwork(java.lang.Boolean)
+comment2.text=\r\n\ Carga\ la\ red\ desde\ el\ fichero\ indicado\ en\ 'fichero'.\r\n\ Formato\ esperado\:\r\n\ -\ Primera\ l\u00EDnea\:\ dos\ enteros\ ->\ n\u00FAmero\ de\ nodos\ y\ valor\ Y.\r\n\ -\ Resto\ de\ l\u00EDneas\:\ triples\ de\ enteros\ ->\ i\ j\ coste\ (una\ arista\ por\ l\u00EDnea).\r\n\r\n\ @param\ show\ si\ es\ true,\ muestra\ mensajes\ explicativos\ por\ consola\r\n
+comment3.params=fichero
+comment3.target=void\ getSolution(java.lang.String)
+comment3.text=\r\n\ Obtiene\ la\ soluci\u00F3n\ de\ la\ red\ ya\ procesada.\r\n\ -\ Si\ 'fichero'\ es\ null,\ imprime\ el\ coste\ total\ y\ las\ aristas\ seleccionadas\ por\ consola.\r\n\ -\ Si\ 'fichero'\ no\ es\ null,\ escribe\ el\ coste\ total\ en\ la\ primera\ l\u00EDnea\ y\r\n\ \ \ las\ aristas\ seleccionadas\ en\ l\u00EDneas\ posteriores\ en\ el\ fichero\ indicado.\r\n\r\n\ @param\ fichero\ nombre\ del\ fichero\ de\ salida;\ si\ es\ null,\ se\ muestra\ por\ consola\r\n
+numComments=4

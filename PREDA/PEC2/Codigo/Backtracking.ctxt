@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Backtracking
+comment0.text=\r\n\ Implementa\ un\ algoritmo\ de\ backtracking\ para\ asignar\ cursos\ a\ aulas\ y\ profesores.\r\n\ Resuelve\ el\ problema\ de\ asignaci\u00F3n\ de\ recursos\ con\ restricciones\ de\:\r\n\ -\ Un\ aula\ por\ curso\r\n\ -\ Un\ profesor\ por\ curso\r\n\ -\ Validaci\u00F3n\ de\ capacidad\ de\ aulas\r\n\ -\ Validaci\u00F3n\ de\ especialidad\ de\ profesores\r\n
+comment1.params=n
+comment1.target=Backtracking(int)
+comment1.text=\r\n\ Constructor\ que\ inicializa\ el\ sistema\ de\ backtracking.\r\n\r\n\ @param\ n\ n\u00FAmero\ de\ cursos,\ aulas\ y\ profesores\ (mismo\ tama\u00F1o)\r\n
+comment2.params=
+comment2.target=int\ getNumberOfCourses()
+comment3.params=
+comment3.target=Course[]\ getSolution()
+comment4.params=courseNumber\ show
+comment4.target=void\ cursosEscuela(int,\ boolean)
+comment4.text=\r\n\ Algoritmo\ recursivo\ de\ backtracking\ para\ asignar\ cursos.\r\n\ Prueba\ todas\ las\ combinaciones\ posibles\ de\ aula-profesor\ para\ cada\ curso\r\n\ hasta\ encontrar\ una\ soluci\u00F3n\ v\u00E1lida\ o\ agotar\ todas\ las\ posibilidades.\r\n\r\n\ @param\ courseNumber\ n\u00FAmero\ del\ curso\ actual\ a\ asignar\ (1-indexed)\r\n\ @param\ show\ si\ true,\ muestra\ trazas\ del\ proceso\ de\ b\u00FAsqueda\r\n
+numComments=5
