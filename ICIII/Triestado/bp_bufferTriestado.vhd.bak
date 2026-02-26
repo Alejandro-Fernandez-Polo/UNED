@@ -1,0 +1,37 @@
+-- Banco de pruebas del buffer triestado
+-- fichero: bp_bufferTriestado.vhd
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity bp_Buffer_TriEstado is
+end entity bp_Buffer_TriEstado;
+
+architecture bp_Buffer_TriEstado of bp_Buffer_TriEstado is
+	signal y     : std_logic;    -- Conectar salida UUT
+	signal d, E  : std_logic;    -- Conectar entradas UUT
+
+	component Buffer_TriEstado is
+		port ( y    : out std_logic;
+		       E, d : in  std_logic  );
+	end component Buffer_TriEstado;
+
+begin
+	-- Instanciar y conectar UUT
+	uut : component Buffer_TriEstado port map
+		( y => y, E => E, d => d );
+
+	gen_vec_test : process
+	begin
+		E <= '0'; d <= '0';
+		wait for 10 ns;
+		d <= '1';
+		wait for 10 ns;
+		E <= '1';
+		wait for 10 ns;
+		d <= '0';
+		wait for 10 ns;
+		report "Final de la simulación";
+		wait
+	end process gen_vec_test;
+
+end architecture bp_Buffer_TriEstado;

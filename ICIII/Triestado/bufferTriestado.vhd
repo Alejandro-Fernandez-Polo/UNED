@@ -1,0 +1,22 @@
+-- Buffer triestado
+-- fichero: bufferTriestad.vhd
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Buffer_TriEstado is
+	port ( y : out std_logic;
+		E : in  std_logic;
+		d : in  std_logic  );
+end entity Buffer_TriEstado ;
+
+architecture Behavioral of Buffer_TriEstado is
+begin
+	process (E, d)
+	begin
+		if (E = '1') then
+			y <= d;
+		else
+			y <= 'Z';
+		end if;
+	end process;
+end architecture Behavioral;

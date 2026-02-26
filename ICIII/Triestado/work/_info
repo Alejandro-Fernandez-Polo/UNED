@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/21.2
+Ebp_buffer_triestado
+Z0 w1771517642
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+Z3 dC:/Users/alexp/Documents/UNED/ICIII/ModelSim
+Z4 8C:/Users/alexp/Documents/UNED/ICIII/ModelSim/bp_bufferTriestado.vhd
+Z5 FC:/Users/alexp/Documents/UNED/ICIII/ModelSim/bp_bufferTriestado.vhd
+l0
+L6 1
+Vg@jOHJ59mh:Tf1TG1InCV0
+!s100 6hI25O]L@>YK1gM_?Fj633
+Z6 OV;C;2021.1;73
+32
+Z7 !s110 1771517647
+!i10b 1
+Z8 !s108 1771517647.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/UNED/ICIII/ModelSim/bp_bufferTriestado.vhd|
+!s107 C:/Users/alexp/Documents/UNED/ICIII/ModelSim/bp_bufferTriestado.vhd|
+!i113 1
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1 CvgOpt 0
+Abp_buffer_triestado
+R1
+R2
+DEx4 work 19 bp_buffer_triestado 0 22 g@jOHJ59mh:Tf1TG1InCV0
+!i122 3
+l18
+L9 29
+V140UmioM@gA9@Aca8az]l1
+!s100 M:`9>flG1ohGBFh_X1lWD0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 C:/Users/alexp/Documents/UNED/ICIII/ModelSim/bp_bufferTriestado.vhd|
+!i113 1
+R10
+R11
+Ebuffer_triestado
+Z13 w1771517502
+R1
+R2
+!i122 1
+R3
+Z14 8C:/Users/alexp/Documents/UNED/ICIII/ModelSim/bufferTriestado.vhd
+Z15 FC:/Users/alexp/Documents/UNED/ICIII/ModelSim/bufferTriestado.vhd
+l0
+L6 1
+VfI[HJ7Bk^8z5ib_:nKTaW2
+!s100 @ZSc]V2X[koBLKcj69HM93
+R6
+32
+Z16 !s110 1771517506
+!i10b 1
+Z17 !s108 1771517506.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/UNED/ICIII/ModelSim/bufferTriestado.vhd|
+Z19 !s107 C:/Users/alexp/Documents/UNED/ICIII/ModelSim/bufferTriestado.vhd|
+!i113 1
+R10
+R11
+Abehavioral
+R1
+R2
+DEx4 work 16 buffer_triestado 0 22 fI[HJ7Bk^8z5ib_:nKTaW2
+!i122 1
+l13
+L12 11
+V9JZoaN09ikkTSBPJ`25z43
+!s100 1_jMald<3z=@nF]P7l7VA1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R10
+R11
