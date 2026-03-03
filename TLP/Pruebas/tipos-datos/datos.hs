@@ -118,3 +118,114 @@ mayor (Sucesor _) Cero = True
 mayor Cero _ = False
 mayor (Sucesor x) (Sucesor y) = mayor x y
 
+-- definición de un nuevo tipo de datos llamado ArbBinEnt, que puede ser un árbol vacío o un nodo que contiene un entero y dos subárboles, lo que permite representar árboles binarios de enteros de forma recursiva
+data ArbBinEnt = ArbolVacio | Nodo Integer ArbBinEnt ArbBinEnt 
+
+-- Tipos polimórficos
+-- definición de un nuevo tipo de datos llamado ArbBin, que puede ser un árbol vacío o un nodo que contiene un valor de tipo a y dos subárboles, lo que permite representar árboles binarios de cualquier tipo de datos de forma recursiva
+data ArbBin a = ArbolVacio | Nodo a (ArbBin a) (ArbBin a) 
+
+
+--TABAJANDO CON LISTAS
+-- contar los elementos de una lista
+length [] = 0
+length (x:xs) = 1 + length xs
+
+-- concatenar listas
+[] ++ ys = ys
+(x:xs) ++ ys = x : (xs ++ ys)
+
+concat [] = []
+concat (xs:yss) = xs ++ (concat yss)
+
+--combinar listas con la función zip, que toma dos listas y devuelve una lista de tuplas con los elementos correspondientes de ambas listas
+zip (x:xs) (y:ys) = (x,y) : (zip xs ys)
+zip _ _ = [] -- caso para listas de diferente longitud, devuelve una lista vacía
+
+-- separar una lista de tuplas en dos listas con la función unzip, que toma una lista de tuplas y devuelve una tupla de dos listas con los elementos correspondientes de las tuplas
+unzip xs = unzipAux xs ([], [])
+  where
+    unzipAux [] acumulador = acumulador -- caso base para la función auxiliar, cuando la lista de tuplas está vacía, devuelve el acumulador con las dos listas separadas
+    unzipAux ((a,b):xs) (as, bs) = unzipAux xs (as ++ [a], bs ++ [b]) -- función auxiliar que toma una lista de tuplas y un acumulador de dos listas, y va separando los elementos de las tuplas en las dos listas del acumulador
+
+-- Aplicar una función a los elementos de una lista
+map _ [] = []
+map f (x:xs) = f x : map f xs
+
+map (\x -> x * x) [1..10] -- función anónima que toma un número y devuelve su cuadrado, aplicada a la lista del 1 al 10, lo que devuelve una lista con los cuadrados de los números del 1 al 10
+-- devuelve [1,4,9,16,25,36,49,64,81,100]
+
+-- función que toma una función y dos listas, y devuelve una lista con los resultados de aplicar la función a los elementos correspondientes de ambas listas, usando patrones para encajar el caso de listas no vacías
+zipWith f (a:as) (b:bs) = f a b : zipWith f as bs -- función que toma una función f y dos listas, y devuelve una lista con los resultados de aplicar f a los elementos correspondientes de ambas listas, usando patrones para encajar el caso de listas no vacías
+zipWith _ _ _ = [] -- caso para listas de diferente longitud, devuelve una lista vacía
+
+
+iterate f x = x : iterate f (f x) -- función que toma una función f y un valor x, y devuelve una lista infinita con los resultados de aplicar f a x, luego a ese resultado, y así sucesivamente, usando recursión para generar la lista infinita
+-- ejemplo de uso de iterate para generar la lista de potencias de 2, empezando por 1
+potenciasDe2 = iterate (2*) 1
+
+--Filtros sobre listas
+-- función que toma una función y una lista, y devuelve una lista con los elementos de la lista que cumplen la condición dada por la función, usando patrones para encajar el caso de listas no vacías
+take _ [] = []
+take n (x:xs) 
+  | n <= 0 = (x:xs)
+  | otherwise = x : take (n-1) xs 
+-- función que toma una función y una lista, y devuelve una lista con los elementos de la lista que cumplen la condición dada por la función, usando patrones para encajar el caso de listas no vacías
+drop _ [] = []
+drop n (x:xs) 
+  | n <= 0 = (x:xs)
+  | otherwise = drop (n-1) xs
+-- funcion que devuelve los numeros pares de una lista, usando patrones para encajar el caso de listas no vacías
+soloPares [] = []
+soloPares (x:xs) 
+  | mod x 2 == 0 = x : soloPares xs
+  | otherwise = soloPares xs
+-- función que devuelve los números mayores que 10 de una lista, usando patrones para encajar el caso de listas no vacías
+mayorQue10 [] = []
+mayorQue10 (x:xs)
+  | x > 10 = x : mayorQue10 xs
+  | otherwise = mayorQue10 xs
+-- ya que son mu similares se usa
+-- filter
+filter _ [] = []
+filter p (x:xs)
+  | p x = x : filter p xs
+  | otherwise = filter p xs
+--asi podemos escribir las funciones anteriores usando filter
+soloPares2 = filter (\x -> mod x 2 == 0)
+mayorQue102 = filter (\x -> x > 10)
+
+-- takeWhile función que toma una función y una lista, y devuelve una lista con los elementos de la lista hasta que se cumpla la condición dada por la función, usando patrones para encajar el caso de listas
+takeWhile _ [] = []
+takeWhile p (x:xs)
+  | p x = x : takeWhile p xs
+  | otherwise = []
+-- dropWhile función que toma una función y una lista, y devuelve una lista con los elementos de la lista a partir del momento en que se deje de cumplir la condición dada por la función, usando patrones para encajar el caso de listas
+dropWhile _ [] = []
+dropWhile p ys@ (x:xs)
+  | p x = dropWhile p xs
+  | otherwise = ys
+
+-- Listas por comprensión
+-- lista por comprensión que genera una lista infinita de números pares, usando la sintaxis de listas por comprensión para generar la lista a partir de una lista de números del 1 al infinito, y filtrando solo los números que cumplen la condición de ser pares
+[ p | p <- [1..] , mod p 2 == 0] 
+[ (x,y) | x <- [1..3], y <- [1..2] ] --devuelve [(1,1),(1,2),(2,1),(2,2),(3,1),(3,2)]
+
+--lista con todos los numeros primos
+divisores n = [ d | d <- [1..n], mod n d == 0 ] 
+primos = [ p | p <- [2..], divisores p == [1,p] ] 
+
+-- Plegado de listas
+foldr f z [] = z
+foldr f z (x:xs) = f x (foldr f z xs)
+
+-- Asi tansformamos estas funciones a foldr
+suma [] = 0
+suma (x:xs) = x + suma xs
+suma2 = foldr (+) 0 -- se evalua 2 + ( 3 + (4 + 0)) ) para la lista [2,3,4]
+
+concat [] = []
+concat (xs:yss) = xs ++ (concat yss)
+concat2 = foldr (++) []
+
+suma3 = foldl (+) 0 -- se evalua ((0 + 2) + 3) + 4) para la lista [2,3,4]
