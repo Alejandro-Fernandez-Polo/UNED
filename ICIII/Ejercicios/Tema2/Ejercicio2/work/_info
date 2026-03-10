@@ -1,0 +1,197 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/21.2
+Ebp_ejercicio1
+w1773160362
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 6
+Z2 dC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2
+Z3 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/bp_ejercicio2.vhd
+Z4 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/bp_ejercicio2.vhd
+l0
+L5 1
+Vf2?[fEJBcekERJiJ?IPkh0
+!s100 ]mFOB4VMc@;lMbC@Cn_@L0
+Z5 OV;C;2021.1;73
+32
+!s110 1773160475
+!i10b 1
+!s108 1773160475.000000
+Z6 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/bp_ejercicio2.vhd|
+!s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/bp_ejercicio2.vhd|
+!i113 1
+Z7 o-work work -2002 -explicit
+Z8 tExplicit 1 CvgOpt 0
+Ebp_ejercicio2
+Z9 w1773160771
+R0
+R1
+!i122 16
+R2
+R3
+R4
+l0
+L5 1
+VhlHP26dV`cMB7f<9HEJfK1
+!s100 7F6_@]UdR9FVLYTAm5QId2
+R5
+32
+Z10 !s110 1773160794
+!i10b 1
+Z11 !s108 1773160794.000000
+R6
+Z12 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/bp_ejercicio2.vhd|
+!i113 1
+R7
+R8
+Abp_ejercicio2
+R0
+R1
+DEx4 work 13 bp_ejercicio2 0 22 hlHP26dV`cMB7f<9HEJfK1
+!i122 16
+l17
+L8 37
+VLDA3BLAjD9HcfS7afgmj`0
+!s100 @O<ElKGa?6fSg8z3bWfKW0
+R5
+32
+R10
+!i10b 1
+R11
+R6
+R12
+!i113 1
+R7
+R8
+Eejercicio2
+Z13 w1773160663
+R0
+R1
+!i122 12
+R2
+Z14 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/ejercicio2.vhd
+Z15 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/ejercicio2.vhd
+l0
+L5 1
+Vj]4m5>9zoU[LFf40mWBD72
+!s100 z02jznf93V9gXfEi=NzRb2
+R5
+32
+Z16 !s110 1773160700
+!i10b 1
+Z17 !s108 1773160700.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/ejercicio2.vhd|
+Z19 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/ejercicio2.vhd|
+!i113 1
+R7
+R8
+Acomp_funclog
+R0
+R1
+DEx4 work 10 ejercicio2 0 22 j]4m5>9zoU[LFf40mWBD72
+!i122 12
+l25
+L12 18
+VHodCI3NI:fQmQAaQEYP_k2
+!s100 7d0N:PUCRj4M2^^hnaVb_0
+R5
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R7
+R8
+Epuerta_not
+Z20 w1773159686
+R0
+R1
+!i122 15
+R2
+Z21 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/puerta_not.vhd
+Z22 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/puerta_not.vhd
+l0
+L5 1
+Vd5MBEi2@8H7IK_F:KZeB=1
+!s100 :]AMeFFYmzaz;ebSJMLe90
+R5
+32
+Z23 !s110 1773160701
+!i10b 1
+R17
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/puerta_not.vhd|
+Z25 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/puerta_not.vhd|
+!i113 1
+R7
+R8
+Apuerta_not
+R0
+R1
+DEx4 work 10 puerta_not 0 22 d5MBEi2@8H7IK_F:KZeB=1
+!i122 15
+l11
+Z26 L10 4
+Vc7RTf^VDTUF9lOV7e_V_L0
+!s100 0:d1bOkI2QmkZcLWDUPAj1
+R5
+32
+R23
+!i10b 1
+R17
+R24
+R25
+!i113 1
+R7
+R8
+Epuerta_or
+Z27 w1773159631
+R0
+R1
+!i122 14
+R2
+Z28 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/puerta_or.vhd
+Z29 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/puerta_or.vhd
+l0
+L5 1
+V]o@f^QVGd3aDW5OReCK_13
+!s100 QU_6;L3m5dNXT?i^Ibf<W3
+R5
+32
+R16
+!i10b 1
+R17
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/puerta_or.vhd|
+Z31 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2/puerta_or.vhd|
+!i113 1
+R7
+R8
+Apuerta_or
+R0
+R1
+DEx4 work 9 puerta_or 0 22 ]o@f^QVGd3aDW5OReCK_13
+!i122 14
+l11
+R26
+VmCHG]BOZnSbKYCM;zI:>z0
+!s100 _7bfOU6R<Vh^<]hmN?3=Z3
+R5
+32
+R16
+!i10b 1
+R17
+R30
+R31
+!i113 1
+R7
+R8
