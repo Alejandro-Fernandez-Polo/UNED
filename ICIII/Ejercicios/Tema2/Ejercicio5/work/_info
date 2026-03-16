@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio2
+Ebp_ejercicio5
+Z0 w1773682776
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+Z3 dC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio5
+Z4 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio5/bp_ejercicio5.vhd
+Z5 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio5/bp_ejercicio5.vhd
+l0
+L5 1
+VO4N7EzeDLodbonAB<B4;G2
+!s100 l`W>FM10Vch7Y3AI31:oC3
+Z6 OV;C;2021.1;73
+32
+Z7 !s110 1773682787
+!i10b 1
+Z8 !s108 1773682787.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio5/bp_ejercicio5.vhd|
+Z10 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio5/bp_ejercicio5.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abp_ejercicio5
+R1
+R2
+Z13 DEx4 work 13 bp_ejercicio5 0 22 O4N7EzeDLodbonAB<B4;G2
+!i122 4
+l17
+L8 26
+VOaTmQkEPdO<Q`hfENL=FG1
+!s100 ;VZ@DZPPQ4W31Ak9AJl;o1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eejercicio5
+Z14 w1773681499
+R1
+R2
+!i122 0
+R3
+Z15 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio5/ejercicio5.vhd
+Z16 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio5/ejercicio5.vhd
+l0
+L5 1
+VK?__gTTglVd1:IFE8=oGT2
+!s100 Hc3X4ceO^^KE@ZB34ZliD1
+R6
+32
+Z17 !s110 1773681585
+!i10b 1
+Z18 !s108 1773681585.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio5/ejercicio5.vhd|
+Z20 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio5/ejercicio5.vhd|
+!i113 1
+R11
+R12
+Acomp_funclog
+R1
+R2
+DEx4 work 10 ejercicio5 0 22 K?__gTTglVd1:IFE8=oGT2
+!i122 0
+l12
+L10 8
+V?lmYl1V]U3<ZJZ]TCCzRI0
+!s100 [b[T44=bWoAUnjcEl5:=50
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
