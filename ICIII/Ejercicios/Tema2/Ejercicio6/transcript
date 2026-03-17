@@ -1,0 +1,81 @@
+# Compile of ejercicio6.vhd failed with 1 errors.
+# Compile of bp_ejercicio6.vhd failed with 51 errors.
+# 2 compiles, 2 failed with 52 errors.
+# Compile of ejercicio6.vhd failed with 1 errors.
+# Compile of bp_ejercicio6.vhd failed with 51 errors.
+# 2 compiles, 2 failed with 52 errors.
+# Compile of ejercicio6.vhd failed with 1 errors.
+# Compile of bp_ejercicio6.vhd failed with 51 errors.
+# 2 compiles, 2 failed with 52 errors.
+# Compile of ejercicio6.vhd was successful with warnings.
+# Compile of bp_ejercicio6.vhd failed with 51 errors.
+# 2 compiles, 1 failed with 51 errors.
+# Compile of bp_ejercicio6.vhd was successful.
+vsim -gui work.bp_ejercicio6
+# vsim -gui work.bp_ejercicio6 
+# Start time: 18:06:27 on Mar 17,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.bp_ejercicio6(bp_ejercicio6)
+# Loading work.ejercicio6(comp_funclog)
+add wave sim:/bp_ejercicio6/*
+run
+# ** Note: Final de la simulaci�n
+#    Time: 80 ns  Iteration: 0  Instance: /bp_ejercicio6
+quit -sim
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/ejercicio6.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/ejercicio6.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/ejercicio6.mpf).  File can not be renamed.
+# End time: 18:15:01 on Mar 17,2026, Elapsed time: 0:08:34
+# Errors: 3, Warnings: 11
+vcom -work work -2002 -explicit C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/ejercicio6.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+# Start time: 18:15:13 on Mar 17,2026
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/ejercicio6.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ejercicio6
+# -- Compiling architecture comp_funcLog of ejercicio6
+# ** Warning: C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/ejercicio6.vhd(17): (vcom-1014) Array type case expression must be of a locally static subtype.
+# End time: 18:15:13 on Mar 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work -2002 -explicit C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/bp_ejercicio6.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+# Start time: 18:15:23 on Mar 17,2026
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/bp_ejercicio6.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bp_ejercicio6
+# -- Compiling architecture bp_ejercicio6 of bp_ejercicio6
+# End time: 18:15:23 on Mar 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.bp_ejercicio6
+# vsim work.bp_ejercicio6 
+# Start time: 18:15:31 on Mar 17,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bp_ejercicio6(bp_ejercicio6)
+# Loading work.ejercicio6(comp_funclog)
+add wave sim:/bp_ejercicio6/*
+run
+# ** Note: Iniciando simulacion
+#    Time: 0 ps  Iteration: 0  Instance: /bp_ejercicio6
+# ** Note: Final de la simulaci�n
+#    Time: 80 ns  Iteration: 0  Instance: /bp_ejercicio6
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/ejercicio6.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/ejercicio6.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema2/Ejercicio6/ejercicio6.mpf).  File can not be renamed.
+# End time: 18:51:09 on Mar 17,2026, Elapsed time: 0:35:38
+# Errors: 3, Warnings: 1
