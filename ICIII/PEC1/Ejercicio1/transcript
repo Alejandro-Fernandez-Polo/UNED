@@ -1,0 +1,47 @@
+# Compile of bp_ejercicio1_A.vhd was successful.
+# Compile of bp_ejercicio1_B.vhd was successful.
+# Compile of ejercicio1_A.vhd was successful.
+# Compile of ejercicio1_B.vhd was successful.
+# Compile of puerta_and.vhd was successful.
+# Compile of puerta_and_3in.vhd was successful.
+# Compile of puerta_not.vhd was successful.
+# Compile of puerta_or.vhd failed with 1 errors.
+# 8 compiles, 1 failed with 1 error.
+# Compile of bp_ejercicio1_A.vhd was successful.
+# Compile of bp_ejercicio1_B.vhd was successful.
+# Compile of ejercicio1_A.vhd was successful.
+# Compile of ejercicio1_B.vhd was successful.
+# Compile of puerta_and.vhd was successful.
+# Compile of puerta_and_3in.vhd was successful.
+# Compile of puerta_not.vhd was successful.
+# Compile of puerta_or.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.bp_ejercicio1_b
+# vsim -gui work.bp_ejercicio1_b 
+# Start time: 18:36:54 on Mar 24,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bp_ejercicio1_b(bp_ejercicio1_b)
+# Loading work.ejercicio1_b(comp_funclog)
+# Loading work.puerta_not(puerta_not)
+# Loading work.puerta_or(puerta_or)
+# Loading work.puerta_and(puerta_and)
+# Loading work.puerta_and_3in(puerta_and_3in)
+# WARNING: No extended dataflow license exists
+add wave sim:/bp_ejercicio1_b/*
+run
+# ** Note: Iniciando simulacion
+#    Time: 0 ps  Iteration: 0  Instance: /bp_ejercicio1_b
+# ** Note: Final de la simulaci�n
+#    Time: 80 ns  Iteration: 0  Instance: /bp_ejercicio1_b
+quit -sim
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/ejercicio1.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/ejercicio1.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/ejercicio1.mpf).  File can not be renamed.
+# End time: 18:41:11 on Mar 24,2026, Elapsed time: 0:04:17
+# Errors: 3, Warnings: 6
