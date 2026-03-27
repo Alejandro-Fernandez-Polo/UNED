@@ -11,14 +11,14 @@ architecture bp_ejercicio1_A of bp_ejercicio1_A is
 	signal F : std_logic;  -- Salidas UUT
 	signal x, y ,z    : std_logic;  -- Entradas UUT
 
-	component ejercicio1_a is
+	component ejercicio1 is
 		port ( F : out std_logic;
 		       x, y, z : in  std_logic  );
-	end component ejercicio1_a;
+	end component ejercicio1;
 
 begin
 	-- Instanciar y conectar UUT
-	uut : component ejercicio1_a port map
+	uut : component ejercicio1 port map
 		( F, x, y, z);
 
 	vec_test : process

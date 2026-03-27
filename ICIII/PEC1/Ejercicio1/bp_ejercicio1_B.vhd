@@ -11,14 +11,17 @@ architecture bp_ejercicio1_B of bp_ejercicio1_B is
 	signal F : std_logic;  -- Salidas UUT
 	signal x, y ,z    : std_logic;  -- Entradas UUT
 
-	component ejercicio1_b is
+	component ejercicio1 is
 		port ( F : out std_logic;
 		       x, y, z : in  std_logic  );
-	end component ejercicio1_b;
+	end component ejercicio1;
+
+	-- Forzar que la UUT use la arquitectura implementacion_2
+	for uut : ejercicio1 use entity work.ejercicio1(implementacion_2);
 
 begin
 	-- Instanciar y conectar UUT
-	uut : component ejercicio1_b port map
+	uut : component ejercicio1 port map
 		( F, x, y, z);
 
 	vec_test : process

@@ -1,12 +1,4 @@
-C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_or.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_or.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity puerta_or
--- Compiling architecture puerta_or of puerta_or
-
-} {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_not.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_not.vhd
+C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_not.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_not.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -14,29 +6,29 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb 
 -- Compiling entity puerta_not
 -- Compiling architecture puerta_not of puerta_not
 
-} {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/ejercicio1_A.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/ejercicio1_A.vhd
+} {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_or.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_or.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity ejercicio1_a
--- Compiling architecture comp_funcLog of ejercicio1_a
+-- Compiling entity puerta_or
+-- Compiling architecture puerta_or of puerta_or
 
-} {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_and.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_and.vhd
+} {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/ejercicio1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/ejercicio1.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity puerta_and
--- Compiling architecture puerta_and of puerta_and
+-- Compiling entity ejercicio1
+-- Compiling architecture implementacion_1 of ejercicio1
 
 } {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/ejercicio1_B.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/ejercicio1_B.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity ejercicio1_b
--- Compiling architecture comp_funcLog of ejercicio1_b
+-- Compiling architecture implementacion_2 of ejercicio1
+-- Loading entity ejercicio1
 
 } {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/bp_ejercicio1_A.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/bp_ejercicio1_A.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
@@ -47,13 +39,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb 
 -- Compiling entity bp_ejercicio1_A
 -- Compiling architecture bp_ejercicio1_A of bp_ejercicio1_A
 
-} {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_and_3in.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_and_3in.vhd
+} {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_and.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_and.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity puerta_and_3in
--- Compiling architecture puerta_and_3in of puerta_and_3in
+-- Compiling entity puerta_and
+-- Compiling architecture puerta_and of puerta_and
 
 } {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/bp_ejercicio1_B.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/bp_ejercicio1_B.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
@@ -63,5 +55,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity bp_ejercicio1_B
 -- Compiling architecture bp_ejercicio1_B of bp_ejercicio1_B
+-- Loading entity ejercicio1
+
+} {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_and_3in.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1/puerta_and_3in.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity puerta_and_3in
+-- Compiling architecture puerta_and_3in of puerta_and_3in
 
 } {} {}}
