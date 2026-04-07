@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11e vcom 2021.1 2021.02, Feb  3 2021
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,374 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio1
+Ebp_ejercicio2
+Z0 w1775574622
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 38
+Z4 dC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2
+Z5 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/bp_ejercicio2.vhd
+Z6 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/bp_ejercicio2.vhd
+l0
+L6 1
+VXjSJ<zG;geQGE0d_EU^Rl2
+!s100 ;>J=JHXnLUl^X21DE]4d^3
+Z7 OV;C;2021.1;73
+32
+Z8 !s110 1775574851
+!i10b 1
+Z9 !s108 1775574851.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/bp_ejercicio2.vhd|
+Z11 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/bp_ejercicio2.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abp_ejercicio2
+R1
+R2
+R3
+Z14 DEx4 work 13 bp_ejercicio2 0 22 XjSJ<zG;geQGE0d_EU^Rl2
+!i122 38
+l20
+L10 54
+V_3einhbJHVS`P4`mZOOP[1
+!s100 JmU7a1@Mg3PT@?6CDCX3I1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eejercicio2
+Z15 w1775565106
+R2
+R3
+!i122 37
+R4
+Z16 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/ejercicio2.vhd
+Z17 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/ejercicio2.vhd
+l0
+L4 1
+VUIV2io<5:cCi[19;adb`f3
+!s100 QM44V<^51[nmEga1@mF]i0
+R7
+32
+Z18 !s110 1775574841
+!i10b 1
+Z19 !s108 1775574841.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/ejercicio2.vhd|
+Z21 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/ejercicio2.vhd|
+!i113 1
+R12
+R13
+Aimplementacion
+R2
+R3
+DEx4 work 10 ejercicio2 0 22 UIV2io<5:cCi[19;adb`f3
+!i122 37
+l55
+L10 67
+V]71]W<k?[7[J<d6YVE?`=1
+!s100 zEWj7kjob;1P0_AJ1_[e`3
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Epuerta_and
+Z22 w1775500246
+R2
+R3
+!i122 31
+R4
+Z23 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and.vhd
+Z24 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and.vhd
+l0
+L5 1
+V=9bXN]MQC>CnVl=zn:BcE3
+!s100 aHmh;3gd>hAThMS6lEWNH1
+R7
+32
+Z25 !s110 1775574831
+!i10b 1
+Z26 !s108 1775574831.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and.vhd|
+Z28 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and.vhd|
+!i113 1
+R12
+R13
+Apuerta_and
+R2
+R3
+DEx4 work 10 puerta_and 0 22 =9bXN]MQC>CnVl=zn:BcE3
+!i122 31
+l11
+Z29 L10 4
+Vk=g1OA?US:aVA5HjL6mTo3
+!s100 iF`BBRd1UAZ`oHPC6j9aN2
+R7
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R12
+R13
+Epuerta_and_3in
+Z30 w1775500244
+R2
+R3
+!i122 32
+R4
+Z31 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and_3in.vhd
+Z32 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and_3in.vhd
+l0
+L5 1
+Vk>jo94B:ZG7@Am11X9c940
+!s100 @?egKjOPW`iYIz1X>NNNO2
+R7
+32
+R25
+!i10b 1
+R26
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and_3in.vhd|
+Z34 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and_3in.vhd|
+!i113 1
+R12
+R13
+Apuerta_and_3in
+R2
+R3
+DEx4 work 14 puerta_and_3in 0 22 k>jo94B:ZG7@Am11X9c940
+!i122 32
+l11
+R29
+VLL9YDmH6n3S4IDJ0Ujan10
+!s100 >nR7F[D75oJIm]:a9i@^T0
+R7
+32
+R25
+!i10b 1
+R26
+R33
+R34
+!i113 1
+R12
+R13
+Epuerta_and_4in
+Z35 w1775500324
+R2
+R3
+!i122 33
+R4
+Z36 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and_4in.vhd
+Z37 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and_4in.vhd
+l0
+L5 1
+VoR4IfR<]7CLfgTzzP5Nf_1
+!s100 XWe:lB_AbWB6zh@^QMFGP2
+R7
+32
+R25
+!i10b 1
+R26
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and_4in.vhd|
+Z39 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_and_4in.vhd|
+!i113 1
+R12
+R13
+Apuerta_and_4in
+R2
+R3
+DEx4 work 14 puerta_and_4in 0 22 oR4IfR<]7CLfgTzzP5Nf_1
+!i122 33
+l11
+R29
+V2KY00>0XekB]JGZRY2Y^a3
+!s100 1_m[nW317G<YnbT[Eo2la1
+R7
+32
+R25
+!i10b 1
+R26
+R38
+R39
+!i113 1
+R12
+R13
+Epuerta_not
+Z40 w1775500221
+R2
+R3
+!i122 30
+R4
+Z41 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_not.vhd
+Z42 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_not.vhd
+l0
+L5 1
+Vd5MBEi2@8H7IK_F:KZeB=1
+!s100 :]AMeFFYmzaz;ebSJMLe90
+R7
+32
+R25
+!i10b 1
+R26
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_not.vhd|
+Z44 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_not.vhd|
+!i113 1
+R12
+R13
+Apuerta_not
+R2
+R3
+DEx4 work 10 puerta_not 0 22 d5MBEi2@8H7IK_F:KZeB=1
+!i122 30
+l11
+R29
+Vc7RTf^VDTUF9lOV7e_V_L0
+!s100 0:d1bOkI2QmkZcLWDUPAj1
+R7
+32
+R25
+!i10b 1
+R26
+R43
+R44
+!i113 1
+R12
+R13
+Epuerta_or_3in
+Z45 w1775500269
+R2
+R3
+!i122 34
+R4
+Z46 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_or_3in.vhd
+Z47 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_or_3in.vhd
+l0
+L5 1
+VLd06eBk[OLdFlmV3L9Y:b3
+!s100 U5a8eG6KL1O=36F=AgH1C1
+R7
+32
+Z48 !s110 1775574832
+!i10b 1
+R26
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_or_3in.vhd|
+Z50 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_or_3in.vhd|
+!i113 1
+R12
+R13
+Apuerta_or_3in
+R2
+R3
+DEx4 work 13 puerta_or_3in 0 22 Ld06eBk[OLdFlmV3L9Y:b3
+!i122 34
+l11
+R29
+VZ4=X^X^Y@]B<<DaAc1i>o3
+!s100 ]M8:6XA;@7D56W:i5<NIO0
+R7
+32
+R48
+!i10b 1
+R26
+R49
+R50
+!i113 1
+R12
+R13
+Epuerta_or_6in
+Z51 w1775500286
+R2
+R3
+!i122 35
+R4
+Z52 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_or_6in.vhd
+Z53 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_or_6in.vhd
+l0
+L5 1
+V5Fo8V>1n=1lbEZS8C49cW3
+!s100 hjl;SY?_el_QQ7@87[V^@3
+R7
+32
+R48
+!i10b 1
+Z54 !s108 1775574832.000000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_or_6in.vhd|
+Z56 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_or_6in.vhd|
+!i113 1
+R12
+R13
+Apuerta_or_6in
+R2
+R3
+DEx4 work 13 puerta_or_6in 0 22 5Fo8V>1n=1lbEZS8C49cW3
+!i122 35
+l11
+R29
+V=`Zd;haBa<IL7Q93h@CJ43
+!s100 i1RYMoD1>5aN:F8G9dN^O0
+R7
+32
+R48
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R12
+R13
+Epuerta_xor
+Z57 w1775500304
+R2
+R3
+!i122 36
+R4
+Z58 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_xor.vhd
+Z59 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_xor.vhd
+l0
+L5 1
+Vdi4?hc`O4cZIgkzOF1U4J2
+!s100 oTaUDC6JEG3PS0`[nUG2z2
+R7
+32
+R48
+!i10b 1
+R54
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_xor.vhd|
+Z61 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2/puerta_xor.vhd|
+!i113 1
+R12
+R13
+Apuerta_xor
+R2
+R3
+DEx4 work 10 puerta_xor 0 22 di4?hc`O4cZIgkzOF1U4J2
+!i122 36
+l11
+R29
+VoWzGDXEG^TEok[>7@SaF`0
+!s100 zHP7lo1ZEFLVl]J`ToG3g3
+R7
+32
+R48
+!i10b 1
+R54
+R60
+R61
+!i113 1
+R12
+R13
