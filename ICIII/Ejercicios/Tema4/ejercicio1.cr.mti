@@ -1,0 +1,23 @@
+C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/ejercicio1.vhd {0 {vcom -work work -2002 -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/ejercicio1.vhd
+** Warning: (vcom-14) Failed to open "C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ejercicio1
+** Error: C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/ejercicio1.vhd(5): near ",": (vcom-1576) expecting ';' or ')'.
+
+} {9.0 10.0} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/bp_ejercicio1.vhd {0 {vcom -work work -2002 -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/bp_ejercicio1.vhd
+** Warning: (vcom-14) Failed to open "C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+** Warning: (vlib-14) Failed to open "C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/bp_ejercicio1.vhd(3): near ":": (vcom-1576) expecting '[' or '.' or '(' or '\''.
+
+} {11.0 12.0} {}}

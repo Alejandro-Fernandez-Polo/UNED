@@ -1,0 +1,30 @@
+# Compile of bp_ejercicio1.vhd failed with 1 errors.
+# Compile of ejercicio1.vhd was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of bp_ejercicio1.vhd failed with 1 errors.
+# Compile of bp_ejercicio1.vhd failed with 9 errors.
+# Compile of bp_ejercicio1.vhd failed with 9 errors.
+# Compile of bp_ejercicio1.vhd was successful with warnings.
+vsim -gui work.bp_regdesp
+# vsim -gui work.bp_regdesp 
+# Start time: 13:53:21 on May 05,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.bp_regdesp(bp_regdesp)
+# Loading work.regdesp(regdesp)
+# WARNING: No extended dataflow license exists
+add wave sim:/bp_regdesp/*
+run
+# ** Note: Comienza la solución
+#    Time: 0 ps  Iteration: 0  Instance: /bp_regdesp
+# ** Note: Finaliza la simulación
+#    Time: 800 ns  Iteration: 0  Instance: /bp_regdesp
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema5/ejercicio1/ejercicio1.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema5/ejercicio1/ejercicio1.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema5/ejercicio1/ejercicio1.mpf).  File can not be renamed.
+# End time: 13:57:37 on May 05,2026, Elapsed time: 0:04:16
+# Errors: 3, Warnings: 9

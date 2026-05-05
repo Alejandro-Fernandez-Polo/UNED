@@ -1,0 +1,18 @@
+C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema5/ejercicio1/bp_ejercicio1.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema5/ejercicio1/bp_ejercicio1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bp_regDesp
+-- Compiling architecture bp_regDesp of bp_regDesp
+** Warning: C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema5/ejercicio1/bp_ejercicio1.vhd(8): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema5/ejercicio1/ejercicio1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema5/ejercicio1/ejercicio1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regDesp
+-- Compiling architecture regDesp of regDesp
+
+} {} {}}

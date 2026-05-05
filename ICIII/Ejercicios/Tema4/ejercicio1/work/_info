@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/alexp/Documents/GitHub/UNED/ICIII/PEC1/Ejercicio2
+Ebp_ejercicio1
+Z0 w1777979935
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 8
+Z4 dC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1
+Z5 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/bp_ejercicio1.vhd
+Z6 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/bp_ejercicio1.vhd
+l0
+L5 1
+VkUU>F^aLGUFmgY091_mgJ2
+!s100 f=oDoL9FM0J6GS8Y<YURe0
+Z7 OV;C;2021.1;73
+32
+Z8 !s110 1777979939
+!i10b 1
+Z9 !s108 1777979939.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/bp_ejercicio1.vhd|
+!s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/bp_ejercicio1.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abp_ejercicio1
+R1
+R2
+R3
+DEx4 work 13 bp_ejercicio1 0 22 kUU>F^aLGUFmgY091_mgJ2
+!i122 8
+l20
+L9 32
+VjJCjIac2J3ef?_HF:mbQO3
+!s100 gU=VNE8355bKn7T1iAU?03
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/bp_ejercicio1.vhd|
+!i113 1
+R11
+R12
+Eejercicio1
+Z14 w1777979799
+R2
+R3
+!i122 5
+R4
+Z15 8C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/ejercicio1.vhd
+Z16 FC:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/ejercicio1.vhd
+l0
+L4 1
+V20Ho0GFUU[OI00kUZjPal1
+!s100 akf2LZW3`PF24_On>QZ_H1
+R7
+32
+Z17 !s110 1777979804
+!i10b 1
+Z18 !s108 1777979804.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/ejercicio1.vhd|
+Z20 !s107 C:/Users/alexp/Documents/GitHub/UNED/ICIII/Ejercicios/Tema4/ejercicio1/ejercicio1.vhd|
+!i113 1
+R11
+R12
+Acomp_funclog
+R2
+R3
+DEx4 work 10 ejercicio1 0 22 20Ho0GFUU[OI00kUZjPal1
+!i122 5
+l11
+L10 17
+V_1@>@Z166]@Cen?L:@M2`0
+!s100 eV4>Ui<VlNn5DD>M`j_AP2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
