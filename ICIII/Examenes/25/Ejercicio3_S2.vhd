@@ -12,7 +12,6 @@ architecture bp_circ of bp_circ is
     port ( y : out std_logic;
            x : in std_logic_vector (2 downto 0));
   end component circ;
-
   
 begin
   uut : component circ port map (x, y);
